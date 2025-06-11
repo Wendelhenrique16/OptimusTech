@@ -1,0 +1,15 @@
+@import url(styles/cabecalho.css);
+:root {
+    --branco: #ffffff;
+    --preto: #000000;
+    --cinza: #667085;   
+    --cinza-escuro: #3a404e;
+    --vermelho: #8e2424;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
