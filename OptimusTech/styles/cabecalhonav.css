@@ -1,0 +1,64 @@
+.navbar-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.cabecalho__logo-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: var(--cinza-escuro);
+    margin: 32px 0px 32px 8vw;
+}
+
+.cabecalho__menu-centro-container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: flex-start;
+    color: var(--cinza);
+    font-size: 1rem;
+    gap: 2rem;
+    margin-left: 10%;
+    flex-wrap: nowrap;
+}
+
+.cabecalho__menu__link {
+    list-style: none;
+    white-space: nowrap;
+}
+
+.cabecalho__menu__link a {
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.cabecalho__menu-direita-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 8vw;
+}
+
+.cabecalho__menu-direita__btn {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    background: none;
+    color: var(--cinza);
+}
+
+#registrar {
+    background-color: var(--vermelho);
+    color: var(--branco);
+}

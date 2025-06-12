@@ -1,15 +1,20 @@
+@import url(styles/cabecalhonav.css);
 @import url(styles/cabecalho.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
     --branco: #ffffff;
-    --preto: #000000;
+    --preto: #101828;
     --cinza: #667085;   
+
     --cinza-escuro: #3a404e;
     --vermelho: #8e2424;
+    --fonte-primaria: 'Inter', sans-serif;
 }
 
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: var(--fonte-primaria);
+    background-color: var(--branco);
 }
