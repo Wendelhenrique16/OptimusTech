@@ -4,4 +4,33 @@
   justify-content: center;
   padding: 20px;
   gap: 2rem;
+  margin-bottom: 92px;
+}
+
+
+
+.metricas__item {
+
+    min-width: 250px; 
+    max-width: 280px; 
+}
+
+.metricas__item__titulo {
+    font-size: 3.75em; 
+    font-weight: 600;
+    color: var(--vermelho);
+    margin-bottom: 0.2em;
+}
+
+.metricas__item__subtitulo {
+    font-size: 1rem;
+    font-weight: 400;
+    color:var(--preto);
+    margin-bottom: 0.8em;
+}
+
+.metricas__item__texto {
+    font-size: 1em; 
+    color: var(--cinza);
+    line-height: 1.5; 
 }

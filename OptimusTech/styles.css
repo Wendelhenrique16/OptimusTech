@@ -2,12 +2,14 @@
 @import url(styles/cabecalho.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url(styles/metricas.css);
-
+@import url(styles/vagas.css);
+@import url(styles/depoimento.css);
+@import url(styles/rodape.css);
 :root {
     --branco: #ffffff;
     --preto: #101828;
     --cinza: #667085;   
-
+    --branco-destaque: #FDF8F8;
     --cinza-escuro: #3a404e;
     --vermelho: #8e2424;
     --fonte-primaria: 'Inter', sans-serif;
